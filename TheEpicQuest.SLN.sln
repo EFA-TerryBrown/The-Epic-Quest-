@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheEpicQuest", "TheEpicQuest", "{CD20D73E-3F7D-4871-B207-2C88E3BBCA6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheEpicQuest.Data", "TheEpicQuest\TheEpicQuest.Data\TheEpicQuest.Data.csproj", "{942794C1-D7A2-4CBB-A377-34F12F70DEE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheEpicQuest.Repository", "TheEpicQuest\TheEpicQuest.Repository\TheEpicQuest.Repository.csproj", "{42358B95-9608-485B-BF6A-398AFD19C242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheEpicQuest.UI", "TheEpicQuest\TheEpicQuest.UI\TheEpicQuest.UI.csproj", "{18E85264-C09E-421F-8988-A50E8194B285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{69B14C37-B682-4173-AB42-431C5CC1BD57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheEpicQuest.Tests", "tests\TheEpicQuest.Tests\TheEpicQuest.Tests.csproj", "{BF380D95-13EE-4088-8F83-B70829B15380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{942794C1-D7A2-4CBB-A377-34F12F70DEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942794C1-D7A2-4CBB-A377-34F12F70DEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942794C1-D7A2-4CBB-A377-34F12F70DEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942794C1-D7A2-4CBB-A377-34F12F70DEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42358B95-9608-485B-BF6A-398AFD19C242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42358B95-9608-485B-BF6A-398AFD19C242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42358B95-9608-485B-BF6A-398AFD19C242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42358B95-9608-485B-BF6A-398AFD19C242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E85264-C09E-421F-8988-A50E8194B285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E85264-C09E-421F-8988-A50E8194B285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E85264-C09E-421F-8988-A50E8194B285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E85264-C09E-421F-8988-A50E8194B285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF380D95-13EE-4088-8F83-B70829B15380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF380D95-13EE-4088-8F83-B70829B15380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF380D95-13EE-4088-8F83-B70829B15380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF380D95-13EE-4088-8F83-B70829B15380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{942794C1-D7A2-4CBB-A377-34F12F70DEE2} = {CD20D73E-3F7D-4871-B207-2C88E3BBCA6A}
+		{42358B95-9608-485B-BF6A-398AFD19C242} = {CD20D73E-3F7D-4871-B207-2C88E3BBCA6A}
+		{18E85264-C09E-421F-8988-A50E8194B285} = {CD20D73E-3F7D-4871-B207-2C88E3BBCA6A}
+		{BF380D95-13EE-4088-8F83-B70829B15380} = {69B14C37-B682-4173-AB42-431C5CC1BD57}
+	EndGlobalSection
+EndGlobal
